@@ -66,7 +66,7 @@ Just add this repo as a new origin
 
 ```sh
 # to add a new origin
-git remote add upstream https://github.com/luckyhackersacademy/luckynotes.git
+git remote add upstream https://github.com/garoque/luckynotes.git
 
 # to get updates and new features
 git pull upstream main
