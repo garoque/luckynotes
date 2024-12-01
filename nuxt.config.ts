@@ -51,10 +51,6 @@ export default defineNuxtConfig({
     ],
   },
 
-  build: {
-    transpile: ['shiki'],
-  },
-
   mdc: {
     components: {
       prose: false,
