@@ -1,0 +1,11 @@
+[build]
+publish = "dist"
+command = "npm run build"
+
+[dev]
+targetPort = 3000
+
+[template.environment]
+TURSO_DB_URL = "libsql://notes-garoque.turso.io"
+TURSO_DB_TOKEN = "eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MzMxMzY5ODcsImlkIjoiMWRmZjRiMjQtMTFiZC00ZTNlLWIzOWQtNTU0OWU2YzY5NGQ2In0.OpUGfd4FqYmyF237C2qpKDzp2ZAuQJu0Kovaj5ATFpY-jGNPScW3GZ8Vde1DA_75abFCwOSnD_YDdwAPAX8OBA"
+ADMIN_PASSWORD = "animaliapark12"
